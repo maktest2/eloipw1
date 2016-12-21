@@ -4,8 +4,11 @@
   "description": "Test one.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "tape tests/**/*.js"
   },
+	"devDependencies": {
+		"tape": "^4.6.3"
+	},
   "author": "Milan",
   "license": "MIT"
 }
