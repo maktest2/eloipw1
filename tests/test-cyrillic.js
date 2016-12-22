@@ -23,7 +23,7 @@ test( 'cyrillic_inputs', function( t ) {
 	t.equal( s.toCyrillic( 'područje' ), 'подручје' );
 	t.equal( s.toCyrillic( 'obilno' ), 'обилно' );
 	t.equal( s.toCyrillic( 'Plava je boja neba.' ), 'Плава је боја неба.' );
-	t.equal( s.toCyrillic( 'Ljuljaška se zaljuljala!' ), 'Љуљашка се заљулала!' );
+	t.equal( s.toCyrillic( 'Ljuljaška se zaljuljala!' ), 'Љуљашка се заљуљала!' );
 	t.equal( s.toCyrillic( 'Džak' ), 'Џак' );
 	t.equal( s.toCyrillic( 'Narandža' ), 'Наранџа' );
 } );
